@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, Joe\n");
+    const char * name = "Joe Blogs";
+    printf("Hello, %s\n" , name );
     return 0;
 }
